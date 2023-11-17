@@ -51,7 +51,7 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Balat Mah. Pamuklu sok.
-  - line: Concept Balat No: 3/B24 Nilüfer BURSA
+  - line: Concept Balat No:/ 3/B24 Nilüfer BURSA
 
 # Build settings
 markdown: kramdown
