@@ -14,11 +14,11 @@ people:
   position: Director
   social:
     - title: linkedin
-      url: # https://www.linkedin.com/in/erhunkundakcioglu
+      url: https://www.linkedin.com/in/erhunkundakcioglu
     - title: google-scholar
-      url: # https://scholar.google.com/citations?user=k6NTKvsAAAAJ&hl=en
+      url: https://scholar.google.com/citations?user=k6NTKvsAAAAJ&hl=en
     - title: website
-      url: # http://erhun.me
+      url: http://erhun.me
 
 - name: Esad Simitcioğlu
   pic: 2
@@ -40,13 +40,6 @@ people:
   social:
     - title: linkedin
       url: #
-      
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: github
-    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
