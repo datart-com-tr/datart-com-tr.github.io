@@ -295,7 +295,7 @@ header .intro-text .intro-heading {
     margin-top: 35px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 23px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 30px;
 }
 
