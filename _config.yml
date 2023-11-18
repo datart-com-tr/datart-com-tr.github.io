@@ -10,7 +10,7 @@ description: "No nonsense. Data driven."
 # Team names, titles and social links
 people:
 - name: Erhun Kundakcıoğlu
-  pic: 1
+  pic: 3
   position: Director
   social:
     - title: linkedin
@@ -30,21 +30,21 @@ people:
       url: https://scholar.google.com/citations?user=k6NTKvsAAAAJ&hl=en
       
 - name: Ulvi Fındık
-  pic: 3
+  pic: 1
   position: Scientist
   social:
     - title: linkedin
       url: #
 
 - name: Elif Kardaş
-  pic: 3
+  pic: 1
   position: Intern
   social:
     - title: linkedin
       url: #
 
 - name: Cookie
-  pic: 3
+  pic: 5
   position: Junior Security Officer
   
 # Postal address (add as many lines as necessary)
