@@ -1,20 +1,280 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
-<div class="home">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175163697-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-  <h1>Posts</h1>
+	  gtag('config', 'UA-175163697-1');
+	</script>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Datart R&amp;D Management Consulting and Software Development, LLC</title>
+	<meta name="author" content="Datart" />
+	<meta name="description" content="Datart Management Consulting and Software Development" />
+	<meta name="keywords"  content="Datart, consulting, Management, optimization, Operations" />
+	<meta name="Resource-type" content="Document" />
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<style>
 
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #536895;
+		margin:0;
+		font-weight:normal;
+	}
+	.intro p{
+		color: #536895;
+	}
+	h2 {
+	font-family: arial,helvetica;
+		font-weight:normal;
+		font-size: 21px;
+		color: #536895;
+	}
+	h3 {
+	font-family: arial,helvetica;
+		font-weight:normal;
+		font-size: 19px;
+		color: #536895;
+	}
+	h5 {
+	font-family: arial,helvetica;
+		font-weight:normal;
+		font-size: 16px;
+		color: #536895;
+	}
+	h6 {
+	font-family: arial,helvetica;
+		font-weight:normal;
+		font-size: 13px;
+		color: #536895;
+	}
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+
+	</style>
+
+	<!--[if IE]>
+		<script>
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script src="css/scrolloverflow.js"></script>
+
+	<script src="css/jquery.fullPage.js"></script>
+	<script src="css/examples.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['Datart', 'Services',
+		'Clients', 'Contact'],
+				sectionsColor: ['#fff', '#fff', '#fff', '#fff'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Datart', 'Services',
+		'Clients', 'Contact']
+			});
+		});
+	</script>
+
+</head>
+<body>
+<div id="fullpage">
+
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1><img src="images/logo.png" alt="Datart" width="370"></h1>
+			<p>No nonsense. Data driven. </p>
+		</div>
+	</div>
+	<div class="section" id="section1">
+	   	<div class="intro">
+				<h4> Optimization and Decision Support Systems</h4>
+								<h5> Identify inefficient practices &amp;
+					the most profitable course of action to
+					operational or strategic business decisions</h5> <h5> State-of-the-art algorithms and
+					analytical methods tailored to
+				business needs</h5>
+				<br />  <br />
+
+					         <h4> Data Mining and Predictive Analytics </h4>
+				           <h5> Better decisions via advanced data analysis
+				      </h5><h5>Clean and
+				      categorize, reveal undiscovered trends, patterns,
+				      anomalies, causalities</h5><h5>Dissect important features and make predictions for streaming data</h5>
+							<br />  <br />
+							<h4> Scheduling and Timetabling</h4>
+													<h5> Engines that generate
+										applicable schedules that maximize profit and quality of service
+										</h5>
+											<br />  <br />
+					     <h4> Simulation </h4>
+				            <h5> Assess the performance of an
+				      existing system &amp; the consequences of an investment</h5><h5>Infer the outcomes of
+				important strategic decisions and inevitable changes</h5>
+<br />  <br />
+					    <h4> Logistics and Warehousing</h4>
+				            <h5>Transportation, network optimization, warehouse layout analysis for better
+				utilization of resources</h5>
+				<h5> Eliminate practices that would ultimately translate
+				      into financial loss due to human
+				      decision-making</h5>
+
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+				<div class="intro">
+						<ul class="grid">
+
+<li> <img src="images/clients/dummy.png"
+alt="" ></li>
+
+					<li><a href="https://arutesolutions.com"
+					target="_blank" > <img src="images/clients/arute.png"
+   					alt="" ></a></li>
+					
+					<li><a href="http://www.atv.com.tr"
+					 target="_blank" > <img src="images/clients/atv.png"
+					alt="" ></a></li>
+
+					<li><a href="http://www.bicakcilar.com"
+					 target="_blank"> <img
+					 src="images/clients/bicakcilar.png"
+					alt="" ></a> </li>
+
+						<li><a href="http://www.borcelik.com"
+					 target="_blank"> <img
+					 src="images/clients/borcelik.png" alt="" ></a> </li>
+
+	
+					 <li> <img src="images/clients/dummy.png"
+					 alt="" ></li>
+					 <li> <img src="images/clients/dummy.png"
+					 alt="" ></li>
+
+					 <li><a href="http://www.cansan.com.tr"
+						target="_blank"> <img
+						src="images/clients/cansan.png" alt="" ></a> </li>
+   
+   
+					<li><a href="http://www.durak.com"
+					 target="_blank"> <img
+					 src="images/clients/durak.png" alt="" ></a> </li>
+
+					<li><a href="http://www.funthemental.com.tr"
+					 target="_blank" > <img src="images/clients/funthemental.png"
+					 alt="" ></a></li>
+
+					 <li><a href="http://www.harrishealth.org"
+		 			target="_blank"> <img src="images/clients/hc.png"
+		 			alt="" ></a> </li>
+
+									
+					 <li> <img src="images/clients/dummy.png"
+					 alt="" ></li>
+					 <li> <img src="images/clients/dummy.png"
+					 alt="" ></li>
+
+					 <li><a href="https://hititcs.com"
+						target="_blank"> <img src="images/clients/hitit.png"
+						alt="" ></a> </li>
+   
+				<li><a href="http://www.honeywell.com"
+					 target="_blank"> <img
+					 src="images/clients/hw.png" alt="" ></a></li>
+
+				<li><a href="http://www.kronos.com"
+					 target="_blank" > <img src="images/clients/el.png"
+					 alt="" ></a></li>
+
+					<li><a href="http://www.kwturkiye.com"
+					 target="_blank"> <img
+					 src="images/clients/kw.png"
+					 alt="" ></a></li>
+
+				
+					 		 <li> <img src="images/clients/dummy.png"
+					 alt="" ></li>
+					 <li> <img src="images/clients/dummy.png"
+					 alt="" ></li>
+
+					 <li><a href="http://www.mirarge.com.tr"
+						target="_blank"> <img
+						src="images/clients/mir.png" alt="" ></a></li>
+   
+						<li><a href="http://www.modularmining.com"
+						target="_blank" > <img src="images/clients/mm.png"
+						alt="" ></a></li>
+   
+   				 <li><a href="http://www.tamfinans.com.tr"
+					 target="_blank" > <img src="images/clients/tam.png"
+					 alt="" ></a></li>
+
+			<li><a href="http://www.turkuvazyayin.com.tr"
+					 target="_blank" > <img src="images/clients/tmg.png"
+					 alt="" ></a></li>
+
+
+				 </ul>
+					 <h5>Datart is supported by <a href="http://tubitak.gov.tr/" target="_blank" >The Scientific and
+					 Technological Research Council of Turkey (TUBITAK)</a> 1507 - SME RDI (Research, Development &amp; Innovation) Grant Program</h5>
+</div></div>
+		<div class="section" id="section3">
+		<div class="intro">
+			<h2>Datart R&amp;D Management Consulting and Software
+				Development, LLC </h2><br />
+				<h5>Datart ARGE Proje Danışmanlık ve Yazılım Geliştirme
+			  Ltd. Şti.</h5><br />
+			<h5>Balat Mah. Pamuklu sok.</h5>
+			<h5>Concept Balat No: 3/B24 Nilüfer BURSA</h5><br />
+			<h5><b>E-mail:</b> <script>
+						<!--
+						// <![CDATA[
+						var erhunuser = "datart@da";
+						var erhunhost = "tart.com.tr";
+						var erhunli = "datar";
+						  var erhunt ="t@dat";
+						  var erhunnk ="art.com.tr";
+						document.write("<a href=" + "m" +"ai" + "lto:" + erhunuser + erhunhost + ">" + erhunli + erhunt + erhunnk + "</a>");
+						// ]]>
+						//-->
+						</script></h5>
+				<br />
+		</div>
+	</div>
 </div>
+
+
+</body>
+</html>
