@@ -1,0 +1,40 @@
+---
+layout: page
+title: Çalışmalarımız
+permalink: /calismalarimiz/
+image: 
+image_alt: ...
+description: "**Datart Laboratuvarı**’nda, bir iş problemiyle harekete geçip, önce **matematiksel model** ve **algoritma** tasarımı ile **akıllı optimizasyon motorlarını** geliştiriyor, daha sonra A'dan Z'ye **yazılım mimarisini** ve **kullanıcı dostu uygulamaları** geliştiriyoruz. **Titiz araştırmayı** **gerçek dünya etkisi** ile birleştiriyoruz. Kamu için faydalı projelere liderlik edip **en güncel akademik çalışmalara** katkı sağlayarak yöntemlerimizin **yenilikçi**, **doğrulanmış** ve **etkili** olmasını sağlıyoruz. Aynı zamanda lojistik, ulaştırma, sağlık ve diğer alanlarda **yurtiçi ve yurtdışındaki şirketlerle** iş birliği yaparak karmaşık sorunları **pratik** ve **esnek çözümlere** dönüştürüyoruz."
+
+---
+
+<div class="container">
+  <section class="section animate">
+    <div class="section__info">
+      <h2 class="section__small__title">{{ site.data.settings.work.work__title }}</h2>
+    </div>
+    <div class="row">
+      {% for work in site.works reversed %}
+        <article class="work col col-4 col-d-6 col-t-12">
+          <div class="work__content">
+            <a href="{{ work.url }}" class="work__image">
+              <img class="lazy" data-src="{{ work.image }}" alt="{{ work.title }}">
+            </a>
+            <div class="work__info">
+              {% if work.category %}
+              <div class="work__category">{{ work.category }}</div>
+              {% endif %}
+              <h3 class="work__title"><a href="{{ work.url }}">{{ work.title }}</a></h3>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+{% include section-logos.html %}
+
+{% include section-publications.html %}
+
+
