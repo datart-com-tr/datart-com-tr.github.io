@@ -8,7 +8,7 @@ include_credit: true
 ---
 <p class="iletisim-yazi">
 Bizimle iletişime geçmek, iş birliği yapmak ve birlikte üretmek için 
-<a href="mailto:team@datart-lab.com">team@datart-lab.com</a> adresinden bize ulaşabilirsiniz.
+<a href="mailto:datart@datart.com.tr">datart@datart.com.tr</a> adresinden bize ulaşabilirsiniz.
 </p>
 
 ---
