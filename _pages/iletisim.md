@@ -13,7 +13,7 @@ Bizimle iletişime geçmek, iş birliği yapmak ve birlikte üretmek için
 
 ---
 
-#### Merak Edenler & Geleceğin Yetenekleri
+#### Meraklı Zihinler ve Geleceğin Yetenekleri
 > Veri analitiği, optimizasyon veya yazılım geliştirme alanında kendini geliştirmek istiyorsan, Datart Laboratuvarı sana gerçek projelerde görev alabileceğin ve değerli deneyimler kazanabileceğin fırsatlar sunar. Stajyer ya da tam zamanlı, lisans ya da lisansüstü öğrencisi olman fark etmez; *projelerimize katılarak öğrenebilir, katkı sağlayabilir ve yetkinliklerini geliştirebilirsin*.
 
 #### Akademik İşbirlikleri
