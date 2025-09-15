@@ -224,7 +224,7 @@ testimonial__items:
       - { icon: "ion ion-logo-github", link: "https://github.com/ayazici21" }
     hobbies:
       - { icon: "☕", label: "Espresso" }
-      - { icon: "🎬", label: "Interstellar" }
+      - { icon: "🎬", label: "Yıldızlararası" }
       - { icon: "🎮", label: "Resident Evil" }
       - { icon: "🎵", label: "Progressive Metal" }
     hobby_icons:
@@ -267,7 +267,7 @@ testimonial__items:
 
     hobbies:
       - { icon: "☕", label: "Cortado" }
-      - { icon: "🎬", label: "Paths of Glory" }
+      - { icon: "🎬", label: "Zafer Yolları" }
       - { icon: "🎮", label: "Minecraft" }
       - { icon: "🎵", label: "Blues" }
 
@@ -287,7 +287,7 @@ testimonial__items:
       Prof. Erhun Kundakcıoğlu, [Sabancı Üniversitesi](https://www.sabanciuniv.edu/)'nde Endüstri Mühendisliği bölümünde öğretim üyesi ve Datart Labortatuvarı'nın direktörüdür. Araştırmaları karar analitiği ve matematiksel optimizasyona odaklanmaktadır. [Florida Üniversitesi](https://www.ufl.edu)'nden Endüstri ve Sistem Mühendisliği alanında doktora derecesi almıştır. Daha önce [Houston Üniversitesi](https://uh.edu) ve [Özyeğin Üniversitesi](https://www.ozyegin.edu.tr)'nde öğretim üyeliği yapmış, ayrıca [Optym](https://optym.com)'de direktör olarak görev almıştır.
     hobbies:
       - { icon: "☕", label: "Espresso" }
-      - { icon: "🎬", label: "Shawshank Redemption" }
+      - { icon: "🎬", label: "Esaretin Bedeli" }
       - { icon: "🎮", label: "FIFA" }
       - { icon: "🎵", label: "The Milk Carton Kids" }
     hobby_icons:
@@ -307,7 +307,7 @@ testimonial__items:
         Bilgisayar Mühendisliği bölümünde lisans eğitimi alırken, Endüstri Mühendisliği alanında yandal programına devam etmektedir.
     hobbies:
       - { icon: "☕", label: "Soğuk Americano" }
-      - { icon: "🎬", label: "Inglourious Basterds" }
+      - { icon: "🎬", label: "Soysuzlar Çetesi" }
       - { icon: "🎵", label: "Queen" }
 
     hobby_icons:
@@ -347,7 +347,7 @@ testimonial__items:
 
     hobbies:
       - { icon: "☕", label: "Çay" }
-      - { icon: "🎬", label: "Seven" }
+      - { icon: "🎬", label: "Yedi" }
       - { icon: "🎮", label: "NBA 2K" }
       - { icon: "🎵", label: "Kendrick Lamar" }
 
@@ -368,7 +368,7 @@ testimonial__items:
 
     hobbies:
       - { icon: "☕", label: "Filtre Kahve" }
-      - { icon: "🎬", label: "The Prestige" }
+      - { icon: "🎬", label: "Prestij" }
       - { icon: "🎮", label: "Dota 2" }
       - { icon: "🎵", label: "Daft Punk, Muse" }
 
