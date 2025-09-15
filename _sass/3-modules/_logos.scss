@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   margin: -$base-spacing-unit;
   @media (max-width: $mobile) {
-   justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -25,7 +25,6 @@
 }
 
 .logos__link {
-  
   display: block;
   transition: all .2s ease;
   border-bottom: none !important;
@@ -37,15 +36,15 @@
 }
 
 .logos__image {
-  width: 11rem;  
-  height: auto; 
+  width: 11rem;
+  height: auto;
   filter: invert(51%) sepia(4%) saturate(1703%) hue-rotate(179deg) brightness(85%) contrast(89%);
   border-radius: 0 !important;
-  
 
-  @media (max-width: $mobile) {
-    height: 2rem;
-  }
+
+//  @media (max-width: $mobile) {
+//    height: 2rem;
+//  }
 }
 
 .dark-mode {
