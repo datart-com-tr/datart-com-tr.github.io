@@ -1,0 +1,152 @@
+<main class="ops-home">
+  <section class="ops-hero">
+    <div class="ops-hero__content">
+      <p class="ops-kicker">Endüstri için karar motorları</p>
+      <h1>Datart Lab</h1>
+      <p class="ops-hero__lead">Optimizasyon, simülasyon ve makine öğrenimi tabanlı yazılım motorları geliştiriyoruz.</p>
+      <div class="ops-hero__actions">
+        <a class="ops-button ops-button--primary" href="{{ '/calismalarimiz/' | relative_url }}">Çalışmaları İncele</a>
+        <a class="ops-button" href="{{ '/iletisim/' | relative_url }}">İletişime Geç</a>
+      </div>
+    </div>
+
+    <div class="ops-console" aria-label="Datart operasyon konsolu">
+      <div class="ops-console__bar">
+        <span>DATART OPS</span>
+        <span>engines online</span>
+      </div>
+      <div class="ops-console__grid">
+        <div class="ops-console__tile">
+          <span class="ops-status ops-status--green"></span>
+          <strong>Optimizasyon</strong>
+          <small>rota, atama, çizelgeleme</small>
+        </div>
+        <div class="ops-console__tile">
+          <span class="ops-status ops-status--green"></span>
+          <strong>Simulasyon</strong>
+          <small>senaryo ve dayanıklılık</small>
+        </div>
+        <div class="ops-console__tile">
+          <span class="ops-status ops-status--amber"></span>
+          <strong>ML Uygulama</strong>
+          <small>tahmin, sınıflama, karar desteği</small>
+        </div>
+      </div>
+      <div class="ops-flow">
+        <span>veri</span>
+        <i></i>
+        <span>model</span>
+        <i></i>
+        <span>motor</span>
+        <i></i>
+        <span>uygulama</span>
+      </div>
+      <div class="ops-console__metrics">
+        <div><strong>6</strong><span>endüstri vakası</span></div>
+        <div><strong>20+</strong><span>akademik çıktı</span></div>
+        <div><strong>17</strong><span>ortak kurum</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ops-section ops-capabilities" aria-labelledby="ops-capabilities-title">
+    <div class="ops-section__head">
+      <p class="ops-kicker">Yetenekler</p>
+      <h2 id="ops-capabilities-title">Araştırma gücü, üretim kodu.</h2>
+    </div>
+    <div class="ops-capability-grid">
+      <article class="ops-capability">
+        <span>01</span>
+        <h3>Optimizasyon motorları</h3>
+        <p>Atama, rotalama, stok ve kaynak planlama problemleri için özel algoritmalar.</p>
+      </article>
+      <article class="ops-capability">
+        <span>02</span>
+        <h3>Simülasyon motorları</h3>
+        <p>Belirsizlik, kapasite ve servis seviyesi etkilerini senaryo bazlı test eden modeller.</p>
+      </article>
+      <article class="ops-capability">
+        <span>03</span>
+        <h3>ML uygulama geliştirme</h3>
+        <p>Veri akışı, modelleme ve kullanıcı arayüzünü tek karar destek ürününde birleştiren sistemler.</p>
+      </article>
+      <article class="ops-capability">
+        <span>04</span>
+        <h3>Yöneylem araştırması</h3>
+        <p>Endüstri kısıtlarını matematiksel modele çeviren, ölçülebilir çözüm yaklaşımı.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="ops-section ops-cases" aria-labelledby="ops-cases-title">
+    <div class="ops-section__head ops-section__head--split">
+      <div>
+        <p class="ops-kicker">Operasyon vakaları</p>
+        <h2 id="ops-cases-title">Seçili projeler</h2>
+      </div>
+      <a class="ops-link" href="{{ '/calismalarimiz/' | relative_url }}">Tüm çalışmalar</a>
+    </div>
+    <div class="ops-case-grid">
+      {% assign sorted_works = site.works | sort: 'date' | reverse %}
+      {% for work in sorted_works limit:4 %}
+      <article class="ops-case">
+        <a href="{{ work.url | relative_url }}" class="ops-case__image">
+          <img src="{{ work.image | relative_url }}" alt="{{ work.title }}">
+        </a>
+        <div class="ops-case__body">
+          {% if work.category %}
+          <p class="ops-case__meta">{{ work.category }}</p>
+          {% endif %}
+          <h3><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h3>
+          {% if work.description %}
+          <p>{{ work.description | strip_html | truncate: 128 }}</p>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="ops-section ops-research" aria-labelledby="ops-research-title">
+    <div class="ops-research__panel">
+      <div class="ops-section__head">
+        <p class="ops-kicker">Araştırma kanıtı</p>
+        <h2 id="ops-research-title">Modeller yayınlarla beslenir.</h2>
+      </div>
+      <ul class="ops-publications">
+        {% for p in site.data.settings.publications.publications__items limit:4 %}
+        <li>
+          <span>{{ p.citation | strip_html | truncate: 170 }}</span>
+          {% if p.paper_url %}
+          <a href="{{ p.paper_url }}" target="_blank" rel="noopener">Kaynak</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <section class="ops-section ops-partners" aria-labelledby="ops-partners-title">
+    <div class="ops-section__head">
+      <p class="ops-kicker">Ortaklar</p>
+      <h2 id="ops-partners-title">Endüstriyle birlikte geliştirilen sistemler.</h2>
+    </div>
+    <ul class="ops-logo-grid list-reset">
+      {% for logo in site.data.settings.logo__items limit:12 %}
+      <li>
+        <a href="{{ logo.link }}" rel="noopener">
+          <img src="{{ logo.image | relative_url }}" alt="{{ logo.name }}">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="ops-contact">
+    <div>
+      <p class="ops-kicker">Yeni problem</p>
+      <h2>Karar motoru gerektiren bir operasyonunuz var mı?</h2>
+    </div>
+    <a class="ops-button ops-button--primary" href="mailto:datart@datart.com.tr">datart@datart.com.tr</a>
+  </section>
+</main>
