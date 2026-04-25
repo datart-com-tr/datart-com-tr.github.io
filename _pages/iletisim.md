@@ -1,23 +1,23 @@
 ---
 layout: page
-title: İletişim
+title: Contact
 description: 
 permalink: /iletisim/
 image:
 include_credit: true
 ---
 <p class="iletisim-yazi">
-Bizimle iletişime geçmek, iş birliği yapmak ve birlikte üretmek için 
-<a href="mailto:datart@datart.com.tr">datart@datart.com.tr</a> adresinden bize ulaşabilirsiniz.
+To contact us, discuss a collaboration, or explore building together, reach us at
+<a href="mailto:datart@datart.com.tr">datart@datart.com.tr</a>.
 </p>
 
 ---
 
-#### Meraklı Zihinler ve Geleceğin Yetenekleri
-> Veri analitiği, optimizasyon veya yazılım geliştirme alanında kendini geliştirmek istiyorsan, Datart Laboratuvarı sana gerçek projelerde görev alabileceğin ve değerli deneyimler kazanabileceğin fırsatlar sunar. Stajyer ya da tam zamanlı, lisans ya da lisansüstü öğrencisi olman fark etmez; *projelerimize katılarak öğrenebilir, katkı sağlayabilir ve yetkinliklerini geliştirebilirsin*.
+#### Curious Minds and Emerging Talent
+> If you want to grow in data analytics, optimization, or software development, Datart Lab offers opportunities to work on real projects and gain practical experience. Whether you are an intern, full-time contributor, undergraduate, or graduate student, *you can learn, contribute, and develop your skills by joining our projects*.
 
-#### Akademik İşbirlikleri
-> İlgi alanlarımızı paylaşan akademisyenler ve araştırmacılarla işbirliğine büyük önem veriyoruz. Eğer *araştırma projeleri geliştirmek, bilimsel makaleler üzerinde çalışmak ya da uluslararası fon başvurularında ortak olmak* istersen, kapımız her zaman açık.
+#### Academic Collaborations
+> We value collaboration with researchers and academics who share our interests. If you want to *develop research projects, work on scientific publications, or partner on international grant applications*, our door is open.
 
-#### Sektör Ortakları
-> Datart Laboratuvarı, sektördeki karmaşık karar verme ve optimizasyon problemlerine yönelik yazılım çözümleri geliştirir. *Şirketiniz veri odaklı karar destek sistemlerine, özel yazılım çözümlerine ya da ileri analitik motorlarına ihtiyaç duyuyorsa*, işbirliğine ve ihtiyacınıza özel projeler geliştirmeye hazırız. 
+#### Industry Partners
+> Datart Lab develops software solutions for complex decision-making and optimization problems in industry. If *your organization needs data-driven decision-support systems, custom software, or advanced analytics engines*, we are ready to collaborate and build projects around your needs.

@@ -1,20 +1,20 @@
 ---
-title: Afet Sonrası Envanter Yönetimi ve Yardım
-description: Belirsizlik altında, felaket sonrası stokların önceden konumlandırılması, dağıtımı ve tahsisini optimize etmek için simülasyon ve Markov Karar Süreçleri (MDP) kullanan bir karar destek platformu.
-category: Kâr amacı gütmeyen | İnsanî Tedarik Zinciri | Simülasyon
+title: Post-Disaster Inventory Management and Relief
+description: A decision-support platform that uses simulation and Markov Decision Processes to optimize the prepositioning, distribution, and allocation of relief supplies under uncertainty.
+category: Nonprofit | Humanitarian Supply Chain | Simulation
 image: '/images/pd.jpeg'
-image_caption: 'Simülasyon odaklı afet yardım lojistiği'
+image_caption: 'Simulation-driven disaster relief logistics'
 ---
 
-## Özet
+## Summary
 
-**Felaket Sonrası Yardım ve Stok Yönetimi (PRISM)**, insani lojistikteki en önemli sorunlardan biri olan **doğal afet sonrası stokların ve tedarik akışlarının yönetimini** ele almak için tasarlanmış gelişmiş bir karar destek sistemidir.
+**Post-Disaster Relief and Inventory Management (PRISM)** is an advanced decision-support system designed to address one of the most critical problems in humanitarian logistics: **managing inventory and supply flows after natural disasters**.
 
-Temelinde, **PRISM**, kesintiye uğramış tedarik zincirlerinin dinamiklerini, değişken talebi, altyapı arızalarını ve belirsiz iyileşme sürelerini yakalayan kapsamlı bir **simülasyon çerçevesi** ile çalışır. Bu temelin üzerine, felaket ortamlarında ortaya çıkan yeni bilgilerle sürekli uyum sağlayabilen dinamik tahsis ve yeniden ikmal stratejilerini mümkün kılan bir **Markov Karar Süreci (MDP)** modeli entegre edilmiştir. **PRISM**, politika yapıcılar, STK’lar ve acil müdahale birimlerine şunları belirleme yeteneği sağlar:
- - Yardım malzemelerini nerede önceden konumlandıracakları
- - Kriz sırasında kıt kaynakları nasıl tahsis edecekleri
- - Koşullar değiştikçe operasyonları nasıl uyarlayacakları
+At its core, **PRISM** runs on a comprehensive **simulation framework** that captures disrupted supply-chain dynamics, variable demand, infrastructure failures, and uncertain recovery times. On top of this foundation, a **Markov Decision Process (MDP)** model enables dynamic allocation and replenishment policies that adapt as new information emerges during a disaster. **PRISM** helps policy makers, NGOs, and emergency response teams decide:
+ - Where to preposition relief supplies
+ - How to allocate scarce resources during a crisis
+ - How to adapt operations as conditions change
 
-**Stokastik modelleme, simülasyon ve MDP tabanlı optimizasyonu**nu birleştirerek, sistem yalnızca neredeyse optimal çözümler sunmakla kalmaz, aynı zamanda **güçlü ve gerçek zamanlı karar rehberliği** sağlar.
+By combining **stochastic modeling, simulation, and MDP-based optimization**, the system provides not only near-optimal solutions but also **robust real-time decision guidance**.
 
-Akademik katkılarının ötesinde, **PRISM**, önemli toplumsal etki de sunar. Türkiye’deki **AFAD, Kızılay ve uluslararası insani yardım kuruluşları** gibi organizasyonlar için **uygulanabilir araçlar** sağlayarak, onların **hazırlıklarını güçlendirmelerine, müdahale sürelerini hızlandırmalarına, malzeme eksikliklerini azaltmalarına ve nihayetinde hayat kurtarmalarına** yardımcı olur. Yardım lojistiğinin planlanış ve uygulanış biçimini dönüştürerek, **PRISM**, gelecekteki afetler karşısında **daha dirençli topluluklar**ın gelişimini doğrudan destekler.
+Beyond its academic contribution, **PRISM** also offers meaningful social impact. By providing **actionable tools** for organizations such as **AFAD, the Turkish Red Crescent, and international humanitarian relief agencies**, it helps strengthen preparedness, accelerate response times, reduce supply shortages, and ultimately save lives. By improving how relief logistics are planned and executed, **PRISM** directly supports more resilient communities in future disasters.
