@@ -1,18 +1,20 @@
 ---
-title: Aircraft Tail Assignment and Fleet Planning
-description: A decision-support engine that optimizes aircraft tail assignment to reduce operating costs and maximize fleet utilization and passenger capacity.
-category: Aviation | Engine | Optimization
+title: Uçak Atama ve Kuyruk Yönetimi
+description: Uçak kuyruk numarası atamasını optimize eden, operasyonel maliyetleri azaltan ve filo kullanımını ile yolcu kapasitesini maksimize eden bir karar destek motoru.
+category: Havacılık | Motor | Optimizasyon
 image: '/images/ta.jpg'
-image_caption: 'Parked aircraft'
+image_caption: 'Park halindeki uçaklar'
 ---
 
-## Summary
+## Özet
 
-**Aircraft Tail Assignment System** helps airlines solve one of their most complex planning problems: assigning aircraft to flights at the individual tail-number level. By considering **operational and technical constraints** such as maintenance programs, ground times, route restrictions, cabin configurations, and crew continuity, the system produces flight assignments that maximize **efficiency, profitability, and reliability**.
+**Uçak Kuyruk Numarası Atama Sistemi**, havayollarının en karmaşık planlama sorunlarından biri olan uçakları, uçuşlara kuyruk numarası düzeyinde atama sorununu çözmelerine yardımcı olur. Bakım programları, yer zamanları, rota kısıtlamaları, kabin konfigürasyonları ve ekip sürekliliği gibi **operasyonel ve teknik kısıtlamaları** göz önünde bulundurarak, sistem **verimlilik, kârlılık ve güvenilirliği** maksimize eden uçuş atamaları üretir.  
 
-At Datart Lab, we developed a **mathematical optimization model**, applied **advanced heuristic methods**, and built a powerful planning engine that:
-- Reduces maintenance frequency
-- Maximizes fleet utilization
-- Increases passenger capacity
+Datart Laboratuvarı olarak, bir **matematiksel optimizasyon modeli** geliştirdik, **ileri seviye sezgisel yöntemler** uyguladık ve
+- Bakım sıklığını azaltan
+- Filo kullanımını maksimize eden
+- Yolcu kapasitesini arttıran
 
-Beyond optimization, the software improves **coordination** across maintenance, operations, and crew planning teams, supporting smoother and lower-cost workflows. With direct integration to real airline data, the system enables **adaptive, transparent, data-driven planning** and delivers measurable improvements in **profitability, resource utilization, and operational resilience**.
+**güçlü bir planlama motoru** inşa ettik.
+
+Yazılımımız, optimizasyonun ötesinde, sistem bakım, operasyon ve ekip planlaması gibi departmanlar arasında **koordinasyonu artırır**; daha sorunsuz ve az maliyetli iş akışları sağlar. Gerçek havayolu verileriyle doğrudan entegrasyon sayesinde, sistem **uyarlanabilir, şeffaf ve veri odaklı planlama** imkanı sunar ve **kârlılık, kaynak kullanımı ve operasyonel dayanıklılık** açısından ölçülebilir iyileşmeler sağlar.

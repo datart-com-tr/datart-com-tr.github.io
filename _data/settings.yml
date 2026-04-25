@@ -2,17 +2,19 @@
 # Site Settings
 title: Datart Lab
 logo: /images/logo_trimmed.png # You can add own logo. For example '/images/logo.png'.
-description: Datart Advanced Research and Development Laboratory
-color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+description: Datart İleri Araştırma ve Geliştirme Laboratuvarı
+color_scheme: light # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
 #-------------------------------
 # Navigation Settings
 menu__settings:
   menu__items:
-    - title: 'Projects'
+    - title: 'Çalışmalarımız'
       url: '/calismalarimiz/'
-    - title: 'Contact'
+    - title: 'Ekibimiz'
+      url: '/ekibimiz/'
+    - title: 'İletişim'
       url: '/iletisim/'
 
 
@@ -41,7 +43,7 @@ hero:
 # Logos Settings
 logos:
   enable: true
-  logos__title: Industry Partners
+  logos__title: Endüstri Ortaklarımız
 
 logo__items:
 
@@ -127,18 +129,14 @@ mailchimp:
 # Work Settings
 calismalarimiz:
   enable: true
-  work__title: Featured Projects
-
-work:
-  enable: true
-  work__title: Featured Projects
+  work__title: Öne Çıkan Projeler
   
 
 #-------------------------------
 # Publications Settings
 publications:
   enable: true
-  publications__title: Publications
+  publications__title: Yayınlar
   publications__description:
 
   publications__items:

@@ -1,17 +1,17 @@
 ---
-title: Athlete Talent Identification and Development Platform
-description: An integrated system, portal, and mobile/web application that manages athlete data, applies evaluation rules, and uses advanced analytics to guide training and talent development.
-category: Machine Learning | Portal | Database
+title: Sporcu Yetenek Tanıma ve Geliştirme Platformu
+description: Sporcu verilerini yöneten, değerlendirme kurallarını uygulayan ve gelişmiş analizlerden yararlanarak antrenman ve yetenek geliştirmeyi yönlendiren entegre bir sistem, portal ve mobil/web uygulama.
+category: Makine Öğrenimi | Portal | Veri Tabanı
 image: '/images/spider.png'
-image_caption: 'Athlete assessment analytics'
+image_caption: 'Sporcu değerlendirme analizleri'
 ---
 
-## Summary
+## Özet
 
-**Athlete Talent Identification and Development Platform (ATIK)** is designed to help sports organizations manage and analyze athlete databases clearly and effectively. We built and maintain the system from its **database architecture** and **evaluation rules** through its advanced **analytics modules**. On top of this foundation, **ATIK** applies **statistical methods and machine learning models** to evaluate skills and potential, then provides **personalized recommendations** that help athletes train more effectively and reach higher performance levels. In addition to the core platform, **ATIK** includes:
+**Sporcu Yetenek Tanıma ve Geliştirme Platformu (ATIK)**, spor organizasyonlarını desteklemek amacıyla sporcu veritabanlarını açık ve etkili bir şekilde yönetip analiz edecek şekilde tasarlanmıştır.  **Veri tabanı mimarisi** ve **değerlendirme kurallarından**, gelişmiş **analitik modüllerine** kadar kurduğumuz sistemin bakımını da biz üstleniyoruz. Bu temelin üzerine, **ATIK**, becerileri ve potansiyeli değerlendirmek için **istatistiksel yöntemler ve makine öğrenimi modelleri** uygular ve sporcuların daha etkili antrenman yapmalarına ve daha yüksek performans seviyelerine ulaşmalarına yardımcı olan **kişiselleştirilmiş öneriler** sunar. Temel platformun yanında, **ATIK** 
 
-- **mobile application**
-- **web application**
-- a dedicated **portal**
+- **mobil uygulama**  
+- **web uygulaması**  
+- Özel bir **portal**  
 
-These tools allow athletes, coaches, and clubs to plan and manage training programs with less friction. By combining **structured performance tests, intelligent analytics, and user-friendly digital tools**, the platform delivers **practical insights** for clubs, coaches, and athletes. Trusted by **leading sports clubs, national athletes, and professional organizations**, **ATIK** supports more informed decisions in athlete selection, development, and training.
+içerir. Bu araçlar, sporcuların, antrenörlerin ve kulüplerin antrenman programlarını kolayca planlamasına ve yönetmesine olanak tanır. **Yapılandırılmış performans testleri, akıllı analizler ve kullanıcı dostu dijital araçları** birleştirerek, platform kulüpler, antrenörler ve sporcular için **pratik içgörüler** sunar. **Önde gelen spor kulüpleri, ulusal sporcular ve profesyonel organizasyonlar** tarafından güvenilen **ATIK**, sporcu seçimi, geliştirilmesi ve antrenmanı konusunda daha **bilinçli kararlar** alınmasını sağlar.

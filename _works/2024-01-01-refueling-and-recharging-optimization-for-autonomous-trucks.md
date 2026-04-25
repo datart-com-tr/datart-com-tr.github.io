@@ -1,13 +1,13 @@
 ---
-title: Refueling and Recharging Optimization for Autonomous Trucks
-description: An optimization engine that plans refueling and recharging strategies for autonomous trucks to reduce operating cost, minimize downtime, and limit route deviations.
-category: Mining | Engine | Routing
+title: Otonom Araçlar için Yakıt ve Şarj Optimizasyonu
+description: Bu optimizasyon motoru, otonom kamyonlar için yakıt ve şarj stratejilerini optimize ederek operasyonel maliyetleri azaltır, duruş sürelerini minimize eder ve planlanan rotalardan sapmaları sınırlar.
+category: Madencilik | Motor | Rotalama
 image: '/images/mine.png'
-image_caption: 'Autonomous vehicles in operation'
+image_caption: 'Otonom araçlar operasyon halinde'
 ---
 
-## Summary
+## Özet
 
-**Refueling and Recharging Optimization Engine** is designed to determine the most efficient energy replenishment strategies for autonomous vehicle operations. We built the software end to end, from the **mathematical optimization formulation** and **selection of customized algorithms** to the implementation of the **full engine code**.
+**Yakıt ve Şarj Optimizasyon Motoru**, otonom araç operasyonlarını desteklemek için en verimli enerji doldurma stratejilerini belirleyecek şekilde tasarlanmıştır. Baştan sona geliştirilen sistemde, **matematiksel optimizasyon formülasyonundan** **özelleştirilmiş algoritmaların seçimine** ve **tam motor kodunun uygulanmasına** kadar tüm yazılım tarafımızca inşa edilmiştir.  
 
-By accounting for **energy/fuel needs and operational requirements**, the software reduces vehicle downtime and supports continuous energy availability. This decision-support system balances **efficiency and reliability**, helping autonomous vehicles operate more continuously, reach higher utilization, and improve overall performance.
+Bu yazılım, **enerji/yakıt ihtiyacı ve operasyonel gereksinimler**i göz önünde bulundurarak, motor duruş sürelerini azaltır ve sürekli enerji ikmali sağlar. Bu kapsamlı karar destek sistemi, **verimlilik ve güvenilirlik** arasında denge kurarak, otonom araçların daha kesintisiz çalışmasını, yüksek kullanım oranına ulaşmasını ve genel performansının iyileştirilmesini sağlar.
